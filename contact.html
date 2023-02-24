@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=Email], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=subject], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type= number], select, number {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:6px;
+  margin-bottom:6px;
+  
+  resize: vertical;
+}
+
+input[type=message], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:red;
+}
+
+input[type=reset] {
+  background-color: blue;
+  color: white;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+
+input[type=reset]:hover {
+  background-color:red;
+}
+
+.container {
+  border-radius: 50px;
+  background-color:black;
+  padding: 25px;
+  width: 900px;
+}
+</style>
+</head>
+<body>
+
+<h2><u><b>Contact us</b></u></h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="Email"></label>
+    <input type="Email" id="Email"  placeholder="Email address">
+    
+    <label for="subject"></label>
+    <input type="subject" id="subject"  placeholder="subject">
+
+     <label for="phone"></label>
+    <input type="number" id="phone" name="number" placeholder="phone number">
+
+
+    
+
+    <label for="message"></label>
+    <textarea id="message" name="subject" placeholder="Message" style="height:200px"></textarea>
+    <br>
+    <br>
+
+    <input type="submit" value="Send your message">
+  </form>
+  <br>
+  <br>
+  <input type="reset" value="Reset">
+  </form>
+  
+</div>
+ 
+
+</body>
+</html>
